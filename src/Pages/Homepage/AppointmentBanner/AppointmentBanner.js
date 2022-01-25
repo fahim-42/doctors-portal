@@ -17,7 +17,7 @@ const appointmentBG = {
 
 const AppointmentBanner = () => {
     return (
-        <Box style={appointmentBG} sx={{ flexGrow: 1 }}>
+        <Box style={appointmentBG} sx={{ flexGrow: 1, mx: 10 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
                     <img style={{ width: '400px', marginTop: '-110px' }} src={doctor} alt="doctor" />
@@ -33,7 +33,7 @@ const AppointmentBanner = () => {
                         <Typography variant='h4' sx={{mb: 2}} style={{ color: 'white' }}>Make an appointment</Typography>
                         <Typography variant='h4' sx={{mb: 2}} style={{ color: 'white' }}>Today</Typography>
                         <Typography variant='body1' style={{ color: 'white' }}>It is a long established fact that a  reader will be distracted by the readable content of a page when looking at its</Typography>
-                        <Button variant="contained" style={{backgroundColor: '#5CE7ED', marginTop: '20px'}}>Learn More</Button>
+                        <Button variant="contained" style={{backgroundColor: '#05C3E6', marginTop: '20px'}}>Learn More</Button>
                     </Box>
                 </Grid>
             </Grid>
